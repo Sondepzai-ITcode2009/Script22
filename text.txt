@@ -80,9 +80,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
   AddButton(Tab3o, {
-     Name = "Tìm Rip_indra và dough king",
+     Name = "Tìm Rip_indra và dough king and râu đen",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHop-FREE"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end
   })
 ----- Dropdown 
