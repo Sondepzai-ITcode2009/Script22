@@ -35,6 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "Find boss"})
      local Tab4o = MakeTab({Name = "Fix lag"})
      local Tab5o = MakeTab({Name = "Kaitun"})
+     local Tab6o = MakeTab({Name = "Hỗ trợ"})
      
      
 -------TOGGLE 
@@ -92,6 +93,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 getgenv().Hide_Menu = false
 getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+  })
+  AddButton(Tab6o, {
+     Name = "Fly Gui V3",
+    Callback = function()	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
   end
   })
 ----- Dropdown 
