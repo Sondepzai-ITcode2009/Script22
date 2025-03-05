@@ -83,7 +83,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   AddButton(Tab3o, {
      Name = "Tìm Rip_indra và dough king and râu đen",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopBoss"))())()
   end
   })
   AddButton(Tab1o, {
