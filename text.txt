@@ -107,9 +107,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AKGAMING-HOP"))()
   end
   })
+  AddButton(Tab1o, {
+     Name = "Banana hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
 ----- Dropdown 
 
-  Dropdown = AddDropdown(Tab1o, {
+  Dropdown = AddDrop,down(Tab1o, {
      Name = "a",
      Options = {"Test 1", "Test 2", "Test 3", "Test 4"},
      Default = "Melee",
